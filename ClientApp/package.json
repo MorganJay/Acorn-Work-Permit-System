@@ -50,10 +50,6 @@
   "overrides": {
     "autoprefixer": "10.4.5"
   },
-  "resolutions": {
-    "css-what": "^5.0.1",
-    "nth-check": "^3.0.1"
-  },
   "scripts": {
     "prestart": "node aspnetcore-https && node aspnetcore-react",
     "start": "rimraf ./build && react-scripts start",

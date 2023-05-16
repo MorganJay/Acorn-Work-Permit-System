@@ -7,7 +7,6 @@ import Emails from './views/Emails';
 const AppRoutes = [
   {
     index: true,
-    path: '/application',
     name: 'Work Permit Application',
     Element: PermitApplication,
   },

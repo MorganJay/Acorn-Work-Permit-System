@@ -34,7 +34,7 @@ const StyledNavItem = styled(NavItem)`
   max-height: 50px;
   border-radius: 10px;
   transition: all 1.5ms ease;
-  padding-right: 1rem;
+  padding-right: 3rem;
   cursor: pointer;
   svg {
     min-width: 25px;

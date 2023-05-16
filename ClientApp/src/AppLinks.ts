@@ -1,9 +1,9 @@
-import { DashboardIcon } from './assets/icons/DashboardIcon';
-import { ProfileIcon } from './assets/icons/ProfileIcon';
-import { WorkApplicationIcon } from './assets/icons/WorkApplicationIcon';
 import { EmailIcon } from './assets/icons/EmailIcon';
-import { SettingsIcon } from './assets/icons/SettingsIcon';
 import { LogoutIcon } from './assets/icons/LogoutIcon';
+import { ProfileIcon } from './assets/icons/ProfileIcon';
+import { SettingsIcon } from './assets/icons/SettingsIcon';
+import { DashboardIcon } from './assets/icons/DashboardIcon';
+import { WorkApplicationIcon } from './assets/icons/WorkApplicationIcon';
 
 const AppLinks = [
   {
@@ -17,7 +17,7 @@ const AppLinks = [
     icon: ProfileIcon,
   },
   {
-    path: 'application',
+    path: '',
     name: 'Work Permit Application',
     icon: WorkApplicationIcon,
   },
@@ -32,7 +32,7 @@ const AppLinks = [
     icon: SettingsIcon,
   },
   {
-    path: '',
+    path: 'logout',
     name: 'Logout',
     icon: LogoutIcon,
   },

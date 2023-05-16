@@ -20,7 +20,7 @@ const NavMenu = () => {
           ))}
         </NavItemContainer>
       </div>
-      <SupportContainer className="text-center">
+      <SupportContainer className="text-center mt-sm-5 mt-lg-0">
         <Link to="/" className="fw-bold">
           Need help?
         </Link>

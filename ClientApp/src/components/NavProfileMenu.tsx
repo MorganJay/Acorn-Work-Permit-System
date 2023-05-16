@@ -7,7 +7,7 @@ import { ArrowDown } from '../assets/icons/ArrowDown';
 
 const NavProfileMenu = () => {
   return (
-    <Container className="d-flex justify-content-end align-items-center gap-2 px-5 py-3">
+    <Container className="d-flex justify-content-end align-items-center gap-2 px-5 py-3 flex-grow-1 flex-shrink-0">
       <Notification />
       <h5 className="text-blue text-nowrap m-0">Caleb Joshua</h5>
       <img

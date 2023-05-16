@@ -7,7 +7,7 @@ import WorkPermit from '../components/work-permit-application/WorkPermit';
 const PermitApplication = () => {
   const [step] = useState(1);
   return (
-    <div className="h-100 d-flex flex-column py-5">
+    <div className="h-100 d-flex flex-column py-5 px-5 px-xxl-0">
       <div className="d-flex align-items-center justify-content-between mb-5">
         <ApplicationStepper step={1} label="Work permit" active={step === 1} />
         <Divider />

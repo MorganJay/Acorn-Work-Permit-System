@@ -14,7 +14,7 @@ const Layout: FC<LayoutProps> = ({ children }) => {
       <NavMenu />
       <main className="d-flex flex-column w-100 min-vw-sm-100">
         <NavProfileMenu />
-        <Container className="h-100 mx-0 align-self-center">
+        <Container className="h-100 align-self-center">
           {children}
         </Container>
       </main>
